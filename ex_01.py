@@ -10,3 +10,4 @@ args = parser.parse_args()
 salary = args.duration_of_work * args.rate + args.bonus
 print(
     f'За месяц отработано {args.duration_of_work} часов. При ставке {args.rate} и премии {args.bonus} к выплате выходит {salary}')
+#
